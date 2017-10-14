@@ -1,14 +1,148 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Second website</title>
-    </head>
-    <body>
-    
-    <h1>Hello World</h1>
-    <p>hello its me, this is my second website.</p>
-        
-        <h1>Second website</h1>
-    
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RegistrationPage</title>
+</head>
+<body>
+<h2 style="background-color:aquamarine">WorkShop Registration</h2>
+<p><u>Register now while seats are available!</u></p>
+<form action="reg.do" method="get">
+    <table>
+        <tr>
+            <th align="left">First Name</th>
+            <td><input type="text" name="fname" style="width: 300px" required></td>
+            <td>
+                <pre>                                </pre>
+            </td>
+            <td><u>Lunch</u></td>
+
+        </tr>
+        <td></td>
+        <tr>
+            <th align="left">Last Name</th>
+            <td><input type="text" name="lname" style="width: 300px" required></td>
+            <td>
+                <pre>                                </pre>
+            </td>
+            <th align="left">Meal Preference &nbsp;  </th>
+            <td><select style="width: 300px" name="meal">
+                <option value="veg">Vegetarian</option>
+                <option value="nveg">NonVegetarian</option>
+                <option value="both">Both</option>
+            </select></td>
+        </tr>
+
+        <tr>
+            <th align="left">Company/Institution</th>
+            <td><input type="text" name="compy" style="width: 300px" required></td>
+            <td>
+                <pre>                                </pre>
+            </td>
+            <td><u>Payment Details</u></td>
+        </tr>
+
+        <tr>
+            <th align="left">Address</th>
+            <td><textarea rows="8" style="width: 300px" name="address"></textarea></td>
+            <td>
+                <pre>                                </pre>
+            </td>
+            <th align="left">PaymentMode</th>
+            <td><input type="checkbox" name="payment" value="cash">Cash<br>
+                <input type="checkbox" name="payment" value="cheque">Cheque<br>
+                <input type="checkbox" name="payment" value="dd">Demand Draft
+            </td>
+        </tr>
+
+        <tr>
+            <th align="left">City</th>
+            <td><input type="text" name="city" style="width: 300px"></td>
+            <td>
+                <pre>                                </pre>
+            </td>
+            <th align="left">DD/Cheque No.</th>
+            <td><input type="text" name="dc" style="width: 300px"></td>
+        </tr>
+
+        <tr>
+            <th align="left">State/Province/Region</th>
+            <td><select style="width: 305px" name="state">
+                <option disabled selected>--Select--</option>
+                <option value="ap">Andra Pradesh</option>
+                <option value="bh">Bihar</option>
+                <option value="ch">Chatishgad</option>
+                <option value="de">Delhi</option>
+                <option value="go">Goa</option>
+                <option value="ha">Haryana</option>
+                <option value="ja">Jarkhand</option>
+                <option value="ka">Karnataka</option>
+                <option value="mh">Maharastra</option>
+                <option value="na">Nagaland</option>
+                <option value="ra">Rajastan</option>
+                <option value="si">Sikkim</option>
+                <option value="ta">TamilNadu</option>
+                <option value="up">Uttar Pradesh</option>
+            </select></td>
+            <td>
+                <pre>                                </pre>
+            </td>
+
+            <th align="left">Drawn On (Bank Name)</th>
+            <td><input type="text" name="bn" style="width: 300px"></td>
+
+        </tr>
+
+        <tr>
+            <th align="left">Country</th>
+            <td><select style="width: 305px" name="country">
+                <option disabled selected>--Select--</option>
+                <option value="aus">Australia</option>
+                <option value="bang">Bangladesh</option>
+                <option value="can">Canada</option>
+                <option value="den">Denmark</option>
+                <option value="eng">England</option>
+                <option value="fin">Finland</option>
+                <option value="gen">Geneva</option>
+                <option value="hol">Holland</option>
+                <option value="ind">India</option>
+                <option value="vir">Virginia</option>
+            </select></td>
+            <td>
+                <pre>                                </pre>
+            </td>
+            <th align="left">Payable at</th>
+            <td><input type="text" name="pay" style="width: 300px"></td>
+        </tr>
+        <tr>
+            <td><br></td>
+        </tr>
+
+        <tr>
+            <th align="left">Email</th>
+            <td><input type="email" name="email" style="width: 300px"></td>
+        </tr>
+        <tr>
+            <td><br></td>
+        </tr>
+
+        <tr>
+            <th align="left">Phone Number</th>
+            <td><input type="number" name="number" style="width: 300px"></td>
+        </tr>
+        <tr>
+            <td><br></td>
+        </tr>
+
+
+        <tr bgcolor="aqua">
+            <th colspan="6"><input type="Submit">&nbsp; <input type="Reset"></th>
+        </tr>
+
+
+    </table>
+
+</form>
+
+</body>
 </html>
